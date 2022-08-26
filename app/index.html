@@ -4,9 +4,129 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+<div class="banner">
+  <div class="container">
+    <h2>Promise-Desert 2020 早春系列</h2>
+    <h1>看得清，才能看得遠</h1>
+    <a href="#">立即購買</a>  
+  </div>
+</div>
+<div class="features">
+  <div class="container">
+    <h2>用專業的心，做專業的事</h2>
+    <ul class="featureCard">
+      <li>
+      <span class="material-symbols-outlined">paid</span>
+      <h3>單一價格</h3>
+      <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p></li>
+      <li>
+      <span class="material-symbols-outlined">schedule</span>
+      <h3>20 分鐘即可取件</h3>
+      <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p></li>
+      <li>
+      <span class="material-symbols-outlined">favorite</span>
+      <h3>安心售後服務</h3>
+      <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p></li>
+      <li>
+      <span class="material-symbols-outlined">voicemail</span>
+      <h3>關於鏡片</h3>
+      <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p></li>
+    </ul>
+  </div>
+</div>
 
-<h1>
-  這是一段話
-</h1>
+<div class="seriesClassic">
+  <div class="container">
+    <h2>經典系列鏡框</h2>
+    <ul class="seriesCard">
+      <li>
+        <a href="#"><img src="assets/images/home-section3-1.png" alt="home-section3-1.png"></a>
+        <a href="#"><h3>OPTICAL</h3></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/images/home-section3-2.png" alt="home-section3-2.png"></a>
+        <a href="#"><h3>SUNGLASSES</h3></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/images/home-section3-3.png" alt="home-section3-3.png"></a>
+        <a href="#"><h3>FUNCTIONAL</h3></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="co-branding">
+  <div class="container">
+    <h2>聯名設計鏡框</h2>
+    <ul class="signatureCard">
+      <li>
+        <div class="double"></div>
+        <a href="#"><h3>DOUBLE A+</h3></a>
+      </li>
+      <li>
+        <div class="youth"></div>
+        <a href="#"><h3>YOUTH</h3></a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-<div class="box"></div>
+<div class="recommend">
+  <div class="container">
+    <h2>顧客推薦</h2>
+    <ul class="recommendCard">
+      <li>
+        <img src="assets/images/home-section5-1.png" alt="home-section5-1.png">
+        <div class="box">
+          <p class="name">Jessy</p>
+          <p class="text">眼鏡品質優良，下次還會想來這邊購買！</p>
+          <p class="date">2021/06/20</p></div>
+        </li>
+      <li>
+        <img src="assets/images/home-section5-2.png" alt="home-section5-2.png">
+        <div class="box">
+        <p class="name">凱倫</p>
+        <p class="text">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+        <p class="date">2021/04/18</p>
+        </div>
+        </li>
+      <li>
+        <img src="assets/images/home-section5-3.png" alt="home-section5-3.png">
+        <div class="box">
+        <p class="name">悠悠</p>
+        <p class="text">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+        <p class="date">2020/12/25</p></div>
+        </li>
+      <li>
+        <img src="assets/images/home-section5-4.png" alt="home-section5-4.png">
+        <div class="box">
+        <p class="name">Kyuan</p>
+        <p class="text">服務很好，品質沒有任何問題，非常喜歡。</p>
+        <p class="date">2020/10/31</p></div>
+        </li>
+    </ul>
+  </div>
+</div>
+
+<div class="contact">
+  <div class="containerForm">
+    <h2>聯絡我們</h2>
+    <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+    <form>      
+      <label for="name">姓名</label>
+      <input type="text" name="name" id="name" placeholder="陳小明">
+      <label for="tel">聯絡電話</label>
+      <input type="tel" name="tel" id="tel" placeholder="0912-345-678">
+      <label for="email">電子郵件</label>
+      <input type="email" name="email" id="email" placeholder="example@email.com">
+      <label for="feedback">意見反應</label>
+      <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="請輸入您的意見"></textarea>
+      <label for="agree">
+        <input type="checkbox" name="agree" id="agree">
+        我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+      </label>
+      <div class="btn">
+        <button type="submit">確認送出</button>
+      </div>
+      </form>
+   
+</div>

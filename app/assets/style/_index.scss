@@ -1,0 +1,252 @@
+
+.banner{
+    background-image: url(../images/home-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    height: 100vh;
+    @include tablet{
+    background-image: url(../images/home-header-sm.png); }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        align-items: flex-end;
+        height: 100%;}
+    h2{
+    font-size:$font-m;
+    color: $secondary;
+    @include mobile{
+        font-size: 16px;
+    }
+    }
+    h1{   
+    font-size: $font-xl;
+    color: $secondary;
+    font-weight: bold;
+    padding-bottom: 10px;
+    @include mobile{
+        font-size:$font-ss;
+        padding-bottom: 8px;
+    }
+    }
+    a{  font-weight: 500;
+        padding: 6px 12px;
+        background-color:$primary;
+        font-size: $font-s;
+        color: #fff;
+        text-align: center;
+        width: 140px;
+        &:hover{color: #ffc107;}
+       }
+    
+}
+
+.features{
+    background-color:#FBF2F2;
+    padding:80px 0;
+    text-align: center;
+    color: $secondary;
+    font-weight: bold;
+    @include mobile{padding:40px 0;}
+    h2{font-size: $font-l;
+    padding-bottom: 32px;
+    @include mobile{
+        font-size: $font-ss;
+        padding-bottom: 0;;}}
+    .featureCard{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px;
+        li{ 
+            width:25%;
+            padding: 0 12px;
+            @include tablet{width: 50%;}
+            @include mobile{width: 100%;}
+            span{font-size: 84px;
+                display: block;
+            padding-bottom: 24px;
+            @include mobile{padding-top: 32px;}}
+            h3{font-size:$font-ss;
+            padding-bottom: 8px;}
+            p{text-align-last: left;
+            font-weight: 400;}
+        }   
+    }
+}
+
+
+.seriesClassic{
+    padding: 80px 0;
+    text-align: center;
+    @include tablet{padding-bottom: 56px;}
+    @include mobile{
+        padding: 40px 0 16px 0;}
+    h2{
+        font-size: $font-l;
+        font-weight: bold;
+        color:$secondary;
+        padding-bottom: 48px;
+    @include mobile{
+        font-size: $font-ss;
+        padding-bottom: 24px;}}
+    .seriesCard{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px;
+        li{width: 33.333%;
+        padding: 0 12px;
+        @include tablet{
+            width: 100%;
+            padding: 0 192px 24px 192px;}
+        @include mobile{
+            padding: 0 12px 24px 12px;}
+        img{padding-bottom: 8px;
+            &:hover{opacity: 0.5;}}      
+        h3{font-size:$font-l;
+            font-weight: 900;
+            font-style: italic;
+            }
+        a{color: $primary;}
+        a:hover{color:#ffc107;}}
+    }
+}
+
+.co-branding{
+    background-image: url(../images/index-bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+    @include tablet{
+        background-image: url(../images/index-bg-sm.png);
+        padding: 80px 0 56px 0;}
+    @include mobile{
+        background-image: url(../images/index-bg-md.png);
+        padding: 40px 0 16px 0;}
+    h2{ color: #FFFFFF;
+        font-size:$font-l;
+        font-weight: bold;
+        padding-bottom: 48px;
+    @include mobile{
+        font-size: $font-ss;
+        padding-bottom: 24px;}}
+    .signatureCard{
+        display: flex;
+        flex-wrap: wrap;
+        li{width: 50%;
+            background-color: #fff;
+        .double{
+            background-image: url(../images/home-section4-1.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 240px;
+            @include mobile{background-image: url(../images/home-section4-1-sm.png);}
+        }
+        .youth{
+            background-image: url(../images/home-section4-2.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 240px;
+            @include mobile{background-image: url(../images/home-section4-2-sm.png);}
+        }
+        @include tablet{width: 100%;
+        margin-bottom: 24px;}}
+        h3{font-size:$font-l;
+            font-weight: 900;
+            font-style: italic;
+            border: 1px solid #DEE2E6;
+            padding: 8px 0;}
+        a{color: $primary;
+            &:hover{color:#ffc107;}}
+    }}
+
+
+.recommend{
+        padding: 80px 0; 
+        @include tablet{
+            padding: 80px 0 56px 0;}
+        @include mobile{
+            padding: 40px 0 24px 0;}   
+        h2{
+            font-size: $font-l;
+            font-weight: bold;
+            color:$secondary;
+            padding-bottom: 48px;
+            text-align: center;
+        @include mobile{
+            font-size: $font-ss;
+            padding-bottom: 24px;}}
+        .recommendCard{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                width:calc(25% - 24px);         
+                border: 1px solid #DEE2E6;
+                box-shadow:0px 2px 6px #00000029;
+                border-radius: 4px;
+                position: relative;
+                text-align: center;
+            @include tablet{
+                width: calc(50% - 12px);
+                margin-bottom: 24px;}
+            @include mobile{
+                width: 100%;
+                margin-bottom: 16px;}
+            img{height: auto;
+                border-radius: 4px 4px 0 0;}}
+            .box{text-align-last: left;
+                padding: 16px;
+                .name{font-weight: 500;
+                padding-bottom: 8px;}
+                .text{padding-bottom: 96px;}
+                .date{font-size:$font-xs;
+                position: absolute;
+                bottom: 16px;}
+            }
+        }
+     }
+
+
+.contact{
+        background-color: #FBF2F2;
+        padding-top: 80px;
+        @include mobile{padding-top: 40px;}
+        .containerForm{
+            max-width: 660px;
+            margin: 0 auto;
+            padding: 0 12px;}
+            
+        h2{font-size:$font-l;
+        font-weight: bold;
+        color: $secondary;
+        text-align: center;
+        padding-bottom: 48px;}
+        p{font-size: $font-s;
+        padding-bottom: 24px;}
+        input[type="text"], input[type="tel"], input[type="email"], label, textarea{
+        display: block;
+        width: 100%;
+        }
+        
+        label{padding-bottom: 8px;}
+        input, textarea{
+        padding: 6px 12px;
+        margin-bottom: 16px;}
+    
+        .btn{text-align: center;
+            margin-top: 40px;
+            padding-bottom: 80px;}
+        button{
+            width: calc((100% - 24px) / 6 * 4);
+            background-color:$primary;
+            color: #FFFFFF;
+            font-weight: bold;
+            border: none;
+            padding: 16px 0;}
+    }
