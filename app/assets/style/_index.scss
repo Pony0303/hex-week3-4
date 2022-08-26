@@ -6,7 +6,7 @@
     background-size: cover;  
     height: 100vh;
     @include tablet{
-    background-image: url(../images/home-header-sm.png); }
+        background-image: url(../images/home-header-sm.png); }
     .container{
         display: flex;
         flex-direction: column;
@@ -211,7 +211,6 @@
             }
         }
      }
-
 
 .contact{
         background-color: #FBF2F2;
