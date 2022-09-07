@@ -60,7 +60,7 @@ a {
   text-decoration: none; }
 
 body {
-  font-family: 'Noto Sans TC', 'Roboto' ,sans-serif;
+  font-family: 'Roboto' ,'Noto Sans TC', sans-serif;
   line-height: 1.5;
   word-break: break-all; }
 
@@ -567,5 +567,27 @@ body {
     font-weight: bold;
     border: none;
     padding: 16px 0; }
+
+.faqcontent {
+  padding-top: 96px; }
+  .faqcontent h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+    margin-bottom: 32px; }
+  .faqcontent h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px; }
+  .faqcontent ul {
+    max-width: 856px;
+    margin-bottom: 48px; }
+    .faqcontent ul li {
+      padding-bottom: 32px; }
+      .faqcontent ul li h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 8px; }
 
 /*# sourceMappingURL=all.css.map */
