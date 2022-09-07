@@ -1,0 +1,26 @@
+.faqcontent{
+    padding-top: 96px;
+    h1{
+        font-size: $font-l;
+        font-weight: bold;
+        padding-left: 16px;
+        border-left: 8px solid #9F1213;
+        margin-bottom: 32px;
+    }
+    h2{
+        font-size: $font-ss;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+    ul{max-width: 856px;
+        margin-bottom: 48px;
+        li{padding-bottom: 32px;
+        h3{
+        font-size: $font-s;
+        font-weight: bold;
+        padding-bottom: 8px;
+        }
+       
+    }}
+    
+}
